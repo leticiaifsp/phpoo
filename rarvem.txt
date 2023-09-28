@@ -1,0 +1,14 @@
+create database rarvem;
+use rarvem;
+create table menu(id int primary key, nome varchar (100),descricao varchar (200), preco decimal (6,2),imagem varchar (150));
+insert into menu values( 1,'Lobster Bisque', 'Lorem, deren, trataro, filede, nerada', 60.50, 'img/lobes.jpg');
+insert into menu value(2, 'Churrasco misto', 'cafta,carne de cordeiro,frango', 16.00, 'img/churrascomisto.jpg');
+insert into menu value(3,'Konafa','bolinho frito e encharcado em uma calda de nozes',25.00,'img/konafa.jpg');
+insert into menu value(4,'Hawawshi','pão tradicional recheado com carne picada,cebola e pimenta',28.00,'img/hawawshi.jpg');
+insert into menu value (5,'Mahalabiya', 'pudim de leite sedoso', 36.00 ,'img/mahalabiya.jpg');
+insert into menu value(6,'Eggah', 'ovo assado com abobrinha,cebola frita,espinhafre,tomate,berinjela,pimentão verde e alho-poró', 38.00 ,'img/eggah.jpg');
+insert into menu value(7,'Fattah' ,'carne de cordeiro ou de boi, cozida, servido com arroz e pão torrado,acompanhado com molho de tomate fresco temperado com alho', 50.00, 'img/fatth.jpg');
+insert into menu value(8,'Sayadiyah', 'peixe branco cozido com arroz amarelo,cebola,especiarias e molho de tomate',45.00,'img/sayadiyah.jpg');
+insert into menu value(9, 'Molokhia', ' sopa de corchorus', 20.00, 'img/molokhia.jpg');
+
+select *from menu
